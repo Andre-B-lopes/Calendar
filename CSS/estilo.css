@@ -1,0 +1,32 @@
+
+header{
+	font-size:25px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+main{
+	text-align:center;
+	padding:100 0 0 0;
+}
+#usu{
+	display:none;
+}
+#cria_quest{
+	width:80%;
+	padding: 0 0 0 200;
+}
+.brasao{
+	width:8%;
+}
+.desafio{
+	padding: 100 0 0 300;
+	font-size:25px;
+	text-align:left;
+}
+.tabela80{
+	width:80% !important;
+}
+.resultados{
+	padding: 0 0 0 200;
+}
