@@ -1,32 +1,36 @@
+*{
+	text-align: center;
+}
 
-header{
-	font-size:25px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
+@media only screen and (max-device-width: 760px) {
+
+
 }
-main{
-	text-align:center;
-	padding:100 0 0 0;
+
+@media only screen and (min-device-width: 1024px) {
+
+.texto{
+	width: 50%;
+	margin-left: 25%;
 }
-#usu{
-	display:none;
+.vazio{
+	background-color: black;
 }
-#cria_quest{
-	width:80%;
-	padding: 0 0 0 200;
+.domingo{
+	background-color: orangered;
 }
-.brasao{
-	width:8%;
+.vago{
+	background-color: darkseagreen;
 }
-.desafio{
-	padding: 100 0 0 300;
-	font-size:25px;
-	text-align:left;
+.ocupado{
+	background-color: red;	
 }
-.tabela80{
-	width:80% !important;
+.data_atual{
+	background-color: lightskyblue;
 }
-.resultados{
-	padding: 0 0 0 200;
+
+a{
+	color: black;
+	text-decoration: underline;
+}
 }
